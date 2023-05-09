@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Datos del Usuario</title>
+    <link rel="stylesheet" href="../css/Datos.css">
+  </head>
+  <body>
+    <header>
+        <nav>
+            <a href="../html/inicio.html">Regresar a inicio</a>
+        </nav>
+    </header>
+    <div class="container">
+      <h1>Datos del Usuario</h1>
+      <div class="datos">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label for="placa">Placa:</label>
+        <input type="text" id="placa" name="placa" required>
+
+        <label for="modelo">Modelo del carro:</label>
+        <input type="text" id="modelo" name="modelo" required>
+
+        <label for="color">Color del carro:</label>
+        <input type="color" id="color" name="color" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" required>
+
+        <label for="direccion">Dirección:</label>
+        <textarea id="direccion" name="direccion" required></textarea>
+
+        <button type="submit">Guardar</button>
+      </div>
+    </div>
+  </body>
+</html>

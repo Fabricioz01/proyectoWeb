@@ -1,0 +1,92 @@
+/* Establece el valor box-sizing: border-box para todos los elementos HTML, 
+lo que significa que cualquier borde o relleno que se aplique a un elemento se incluirá dentro de las dimensiones del elemento */
+* {
+  box-sizing: border-box;
+}
+
+/* Define el fondo de la página usando una imagen */
+body {
+  background-image: url(../img/cancelado.png);
+  /* Establece la fuente a utilizar en la página */
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Define los estilos para los enlaces */
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fb0707;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Define los estilos para los enlaces al pasar el cursor sobre ellos */
+a:hover {
+  background-color: rgb(38, 190, 53);
+}
+
+/* Define los estilos para el contenedor principal de la página */
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 10%;
+  height: 50vh;
+}
+
+/* Define los estilos para el título de la página */
+h1 {
+  text-align: center;
+}
+
+/* Define los estilos para el formulario */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Define los estilos para cada campo de entrada en el formulario */
+.input-container {
+  margin-bottom: 35px;
+}
+
+/* Define los estilos para las etiquetas de texto del formulario */
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Define los estilos para los campos de texto del formulario */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Define los estilos para los campos de texto del formulario cuando están enfocados */
+input[type="text"]:focus {
+  outline: none;
+  border-color: #333;
+}
+
+/* Define los estilos para el botón de enviar del formulario */
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Define los estilos para el botón de enviar del formulario al pasar el cursor sobre él */
+button[type="submit"]:hover {
+  background-color: #e60000;
+}

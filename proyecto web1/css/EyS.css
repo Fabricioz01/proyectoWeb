@@ -1,0 +1,54 @@
+/* Estilos para los enlaces */
+a {
+  display: inline-block;  /* muestra los enlaces en línea */
+  padding: 10px 20px;  /* añade relleno (padding) de 10px arriba y abajo, y 20px a la izquierda y derecha */
+  background-color: #fb0707;  /* establece el color de fondo en rojo */
+  color: #fff;  /* establece el color del texto en blanco */
+  text-decoration: none;  /* elimina el subrayado de los enlaces */
+}
+/* Estilos para los enlaces al pasar el cursor sobre ellos */
+a:hover {
+  background-color: rgb(38, 190, 53);  /* establece el color de fondo en verde */
+}
+
+/* Estilos para el formulario */
+form {
+  display: flex;  /* muestra los elementos del formulario en línea */
+  flex-direction: column;  /* establece la dirección de los elementos del formulario a una columna */
+  align-items: center;  /* centra los elementos horizontalmente */
+}
+/* Estilos para los campos de entrada de texto */
+input[type=text], input[type=date], input[type=time] {
+  width: 100%;  /* establece el ancho del campo de entrada en 100% */
+  padding: 10px;  /* añade relleno (padding) de 10px a los campos de entrada */
+  margin: 5px 0;  /* establece un margen de 5px en la parte superior e inferior del campo de entrada */
+  border: none;  /* elimina el borde del campo de entrada */
+  border-radius: 3px;  /* establece la esquina redondeada del campo de entrada en 3px */
+  background-color: #f2f2f2;  /* establece el color de fondo del campo de entrada en gris claro */
+  font-size: 16px;  /* establece el tamaño de fuente del campo de entrada en 16px */
+}
+/* Estilos para el botón de envío del formulario */
+input[type=submit] {
+  background-color: #ea100d;  /* establece el color de fondo del botón en rojo oscuro */
+  color: white;  /* establece el color del texto en blanco */
+  border: none;  /* elimina el borde del botón */
+  border-radius: 3px;  /* establece la esquina redondeada del botón en 3px */
+  padding: 10px 20px;  /* añade relleno (padding) de 10px arriba y abajo, y 20px a la izquierda y derecha */
+  cursor: pointer;  /* cambia el cursor al pasar el cursor sobre el botón */
+  font-size: 16px;  /* establece el tamaño de fuente del botón en 16px */
+}
+
+/* Estilos para la tabla */
+table {
+  border-collapse: collapse;  /* combina los bordes de la tabla */
+  width: 100%;  /* establece el ancho de la tabla en 100% */
+}
+
+th, td {
+  text-align: left;  /* alinea el texto a la izquierda en las celdas de la tabla */
+  padding: 8px;  /* añade relleno (padding) de 8px a las celdas de la tabla */
+  border-bottom: 1px solid #918d8d;  /* agrega un borde inferior de 1px sólido en un tono de gris oscuro a las celdas de la tabla */
+}
+tr:hover {
+  background-color: #d40f0f;  /* cambia el color de fondo de una fila al pasar el cursor sobre ella a un tono rojo oscuro */
+}

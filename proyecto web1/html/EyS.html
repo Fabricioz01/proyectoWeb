@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Registro de Entrada y Salida - Estacionamiento ULEAM</title>
+    <link rel="stylesheet" href="../css/EyS.css">
+    <link rel="icon" href="../img/uleam.png">
+  </head>
+  <body>
+    <header>
+        <nav>
+            <a href="../html/inicio.html">Regresar a inicio</a>
+        </nav>
+    </header>
+    <h1>Registro de Entrada y Salida - Estacionamiento ULEAM</h1>
+    <form>
+      <h2>Registro de Entrada</h2>
+      <label for="placa">Placa:</label>
+      <input type="text" id="placa" name="placa" required>
+      <label for="fecha-entrada">Fecha de Entrada:</label>
+      <input type="date" id="fecha-entrada" name="fecha-entrada" required>
+      <label for="hora-entrada">Hora de Entrada:</label>
+      <input type="time" id="hora-entrada" name="hora-entrada" required>
+      <input type="submit" value="Registrar Entrada">
+    </form>
+    <br>
+    <table>
+      <caption>Registro de Salida</caption>
+      <thead>
+        <tr>
+          <th>Placa</th>
+          <th>Fecha de Entrada</th>
+          <th>Hora de Entrada</th>
+          <th>Fecha de Salida</th>
+          <th>Hora de Salida</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>ABC-1234</td>
+          <td>08/05/2023</td>
+          <td>10:30 am</td>
+          <td>08/05/2023</td>
+          <td>02:45 pm</td>
+        </tr>
+        <tr>
+          <td>DEF-5678</td>
+          <td>07/05/2023</td>
+          <td>09:15 am</td>
+          <td>07/05/2023</td>
+          <td>12:30 pm</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
